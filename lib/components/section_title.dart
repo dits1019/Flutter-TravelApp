@@ -3,7 +3,7 @@ import 'package:flutter_travel_ex/constants.dart';
 import 'package:flutter_travel_ex/size_config.dart';
 
 class SectionTitle extends StatelessWidget {
-  const SectionTitle({Key key, @required this.title, @required this.press})
+  const SectionTitle({Key? key, required this.title, required this.press})
       : super(key: key);
 
   final String title;

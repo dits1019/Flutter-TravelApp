@@ -6,7 +6,7 @@ import 'package:flutter_travel_ex/size_config.dart';
 
 class TopTravelers extends StatelessWidget {
   const TopTravelers({
-    Key key,
+    Key? key,
   }) : super(key: key);
 
   @override
@@ -44,8 +44,8 @@ class TopTravelers extends StatelessWidget {
 
 class UserCard extends StatelessWidget {
   const UserCard({
-    Key key,
-    @required this.user,
+    Key? key,
+    required this.user,
   }) : super(key: key);
 
   final User user;

@@ -8,7 +8,7 @@ import 'package:flutter_travel_ex/size_config.dart';
 
 class PopularPlaces extends StatelessWidget {
   const PopularPlaces({
-    Key key,
+    Key? key,
   }) : super(key: key);
 
   @override
@@ -56,8 +56,8 @@ class PopularPlaces extends StatelessWidget {
 
 class Travelers extends StatelessWidget {
   const Travelers({
-    Key key,
-    @required this.users,
+    Key? key,
+    required this.users,
   }) : super(key: key);
 
   final List<User> users;

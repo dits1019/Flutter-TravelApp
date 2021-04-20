@@ -6,7 +6,7 @@ import 'package:flutter_travel_ex/size_config.dart';
 
 class CustomNavBar extends StatelessWidget {
   const CustomNavBar({
-    Key key,
+    Key? key,
   }) : super(key: key);
 
   @override
@@ -49,11 +49,11 @@ class CustomNavBar extends StatelessWidget {
 
 class NavItem extends StatelessWidget {
   const NavItem({
-    Key key,
-    @required this.icon,
-    @required this.title,
+    Key? key,
+    required this.icon,
+    required this.title,
     this.isActive = false,
-    @required this.press,
+    required this.press,
   }) : super(key: key);
 
   final String icon, title;

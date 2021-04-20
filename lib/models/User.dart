@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class User {
   final String name, image;
 
-  User({@required this.name, @required this.image});
+  User({required this.name, required this.image});
 }
 
 // Demo List of Top Travelers

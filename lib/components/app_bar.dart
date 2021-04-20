@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_travel_ex/constants.dart';
 
-AppBar buildAppBar({bool isTransparent = false, String title}) {
+AppBar buildAppBar({bool isTransparent = false, String? title}) {
   return AppBar(
     backgroundColor: isTransparent ? Colors.transparent : Colors.white,
     elevation: 0,

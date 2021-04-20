@@ -4,7 +4,7 @@ import 'package:flutter_travel_ex/size_config.dart';
 
 class HomeHeader extends StatelessWidget {
   const HomeHeader({
-    Key key,
+    Key? key,
   }) : super(key: key);
 
   @override

@@ -7,9 +7,9 @@ import 'package:intl/intl.dart';
 
 class PlaceCard extends StatelessWidget {
   const PlaceCard({
-    Key key,
-    @required this.travelSpot,
-    @required this.press,
+    Key? key,
+    required this.travelSpot,
+    required this.press,
     this.isFullCard = false,
   }) : super(key: key);
 
@@ -66,7 +66,7 @@ class PlaceCard extends StatelessWidget {
                     travelSpot.date.day.toString(),
                     style: Theme.of(context)
                         .textTheme
-                        .headline4
+                        .headline4!
                         .copyWith(fontWeight: FontWeight.bold),
                   ),
                 Text(DateFormat.MMM().format(travelSpot.date).toString() +
